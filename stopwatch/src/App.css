@@ -1,0 +1,40 @@
+body {
+  background-color: azure;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  text-align: center;
+  margin-top: 20rem;
+}
+
+.stopwatch-display {
+  font-size: 5rem;
+  color: rgb(136, 9, 9);
+}
+
+.button-container {
+  margin-top: 1rem;
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.btn {
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  font-size: 1.5rem;
+  font: inherit;
+  color: rgb(11, 11, 11);
+}
+
+.start-btn {
+  background-color: rgb(6, 135, 6);
+}
+
+.stop-btn {
+  background-color: rgb(176, 31, 12);
+}
+
+.reset-btn {
+  background-color: rgb(224, 185, 10);
+}
